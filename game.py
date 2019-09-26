@@ -100,10 +100,8 @@ if __name__ == "__main__":
     myfield.draw()
     
     while(1):
-        
-        ch=ord(msvcrt.getch())
-        print(ch)
-        '''
+
+        cmd = input()
         if(cmd == 'w'):
             xiaoming.move('up')
         elif(cmd == 'a'):
@@ -111,5 +109,5 @@ if __name__ == "__main__":
         elif(cmd == 's'):
             xiaoming.move('down')
         elif(cmd == 'd'):
-            xiaoming.move('right')'''
-        #myfield.draw()
+            xiaoming.move('right')
+        myfield.draw()
