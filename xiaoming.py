@@ -24,7 +24,7 @@ class character:
 
 if __name__ == "__main__":
 
-    player = character(500, 10, 1, 0, 'xiaoming');
+    player = character(500, 10, 0.8, 0, 'xiaoming');
     monster1 = character(110, 5, 2, 0, 'monster1');
     monster2 = character(110, 5, 2, 0, 'monster2');
     monster3 = character(110, 5, 2, 0, 'monster3');
